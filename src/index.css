@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  /* background-image: url('https://images.pexels.com/photos/1242348/pexels-photo-1242348.jpeg?auto=compress&cs=tinysrgb&w=600'); */
+  /* Replace 'path/to/your/image.jpg' with the actual path to your background image */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+#root {
+  height: 100%;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 3rem;
+}
+
+h-screen
+{
+  height: 102vh;
+}
+
+.footer-col, .footer-col-parent img
+{
+  margin: 20px 10px;
+}
+.footer-img
+{
+  height: 7rem;
+  border-radius: 50%;
+}
+img, svg
+{
+  vertical-align: middle;
+}
+img
+{
+  border-style: none;
+}
+*
+{
+  box-sizing: border-box;
+}
